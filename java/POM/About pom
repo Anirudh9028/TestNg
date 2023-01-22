@@ -1,0 +1,37 @@
+So basically pom is a design pattern 
+We need two class one for method implemention
+second for execution purpose 
+
+CLASS ONE :-
+
+1. CONSTRUCTER 
+	
+	initialize = WebDriver.....[ Interface ] + PageFactory.initElement ();.....[Class + method]
+
+2. FIND AND CREATE 
+	
+	find the webElement and create object(variable) for it
+	
+3. CREATE METHODS
+	
+	1.create separate respective methods for each test case 
+	2.According to test case build the logic try to convert those logic into boolean value + use base utility classes + external test-data
+	3.Make sure each method return type should be boolean + close whatever open file connections etc 
+	
+	
+CLASS SECOND :-
+
+	1. WebDriver launch + disiable notification + add implicitly wait + maximize the window ..[@ Before class]
+	2. Import all methods from class one + put assertions + set priority ..[@Test]
+	3. close the open browser..[@After class]
+	
+PROJECT XML FILE :-
+	
+	1. Add listeners class 
+	2. do cross browsing (using parameter)
+	
+EXTRA FOLDER :-
+	
+	1. To store Report purpose
+	2. To store Failed Screen Shot Purpose 
+	3. To store Test data File (Excel,Json etc) Purpose

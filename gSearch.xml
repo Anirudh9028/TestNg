@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_gSearch">
+  <test thread-count="5" name="Test_gSearch">
+    <classes>
+      <class name="testNgreports.googlesearchReports"/>
+    </classes>
+  </test> <!-- Test_gSearch -->
+</suite> <!-- Suite_gSearch -->

@@ -1,0 +1,27 @@
+1) use this dependency to use Extend report
+
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.9</version>
+			
+2) log Levels status in extent report
+ it is used where you need to add extra information with the test case using log status
+	Fail = reason to pass
+	Skip = reason to pass
+	Waring = at what situation  
+	Pass = reason to pass
+	Info = used for described navigation step, or test data used to it
+	
+3) Log different type of information to the extent reports
+		
+		Text -bold, italic or both description form
+		XML = log response in xml format in report while using API automation
+		JSON = log response in JSON format in report while using API automation
+		Collection Data(List,set and map) = log drop list valus in report
+		Highlight any msg = Highlight the msg
+		Exception	= log the exception msg into report
+		
+		
+4)	Attach screeneshots to the extent report (P6)
+	Test Level
+	Log Level
